@@ -1,0 +1,175 @@
+Java Stream API
+│
+├── 1. Fundamentals
+│   ├── What is Stream?
+│   ├── Why Stream API?
+│   ├── Stream vs Collection
+│   ├── Stream Pipeline
+│   ├── Lazy Evaluation
+│   ├── Internal Iteration
+│   ├── Functional Programming
+│   └── Non-interference
+│
+├── 2. Stream Architecture
+│   ├── Source
+│   ├── Intermediate Operations
+│   ├── Terminal Operation
+│   └── Pipeline
+│
+├── 3. Stream Types
+│   ├── Stream<T>
+│   ├── IntStream
+│   ├── LongStream
+│   └── DoubleStream
+│
+├── 4. Creating Streams
+│   ├── Collection.stream()
+│   ├── Collection.parallelStream()
+│   ├── Stream.of()
+│   ├── Stream.empty()
+│   ├── Stream.builder()
+│   ├── Stream.generate()
+│   ├── Stream.iterate()
+│   ├── Stream.concat()
+│   ├── Arrays.stream()
+│   ├── IntStream.range()
+│   ├── IntStream.rangeClosed()
+│   ├── LongStream
+│   └── DoubleStream
+│
+├── 5. Intermediate Operations
+│   ├── filter()
+│   ├── map()
+│   ├── flatMap()
+│   ├── mapToInt()
+│   ├── mapToLong()
+│   ├── mapToDouble()
+│   ├── flatMapToInt()
+│   ├── flatMapToLong()
+│   ├── flatMapToDouble()
+│   ├── distinct()
+│   ├── sorted()
+│   ├── peek()
+│   ├── limit()
+│   ├── skip()
+│   ├── takeWhile()
+│   ├── dropWhile()
+│   └── unordered()
+│
+├── 6. Terminal Operations
+│   ├── forEach()
+│   ├── forEachOrdered()
+│   ├── toArray()
+│   ├── reduce()
+│   ├── collect()
+│   ├── min()
+│   ├── max()
+│   ├── count()
+│   ├── anyMatch()
+│   ├── allMatch()
+│   ├── noneMatch()
+│   ├── findFirst()
+│   └── findAny()
+│
+├── 7. Primitive Stream Operations
+│   ├── IntStream
+│   ├── LongStream
+│   ├── DoubleStream
+│   ├── sum()
+│   ├── average()
+│   ├── min()
+│   ├── max()
+│   ├── count()
+│   ├── summaryStatistics()
+│   ├── boxed()
+│   ├── mapToObj()
+│   └── asLongStream()/asDoubleStream()
+│
+├── 8. Collectors
+│   ├── toList()
+│   ├── toSet()
+│   ├── toCollection()
+│   ├── joining()
+│   ├── counting()
+│   ├── summingInt()
+│   ├── summingLong()
+│   ├── summingDouble()
+│   ├── averagingInt()
+│   ├── averagingLong()
+│   ├── averagingDouble()
+│   ├── summarizingInt()
+│   ├── summarizingLong()
+│   ├── summarizingDouble()
+│   ├── groupingBy()
+│   ├── groupingByConcurrent()
+│   ├── partitioningBy()
+│   ├── mapping()
+│   ├── filtering()
+│   ├── flatMapping()
+│   ├── collectingAndThen()
+│   ├── reducing()
+│   ├── maxBy()
+│   ├── minBy()
+│   └── teeing()
+│
+├── 9. Optional with Streams
+│   ├── Optional<T>
+│   ├── OptionalInt
+│   ├── OptionalLong
+│   └── OptionalDouble
+│
+├── 10. Stream + Lambda
+│   ├── Predicate
+│   ├── Function
+│   ├── Consumer
+│   ├── Supplier
+│   ├── UnaryOperator
+│   ├── BinaryOperator
+│   └── Comparator
+│
+├── 11. Stream + Method References
+│   ├── Class::staticMethod
+│   ├── object::instanceMethod
+│   ├── Class::instanceMethod
+│   └── Class::new
+│
+├── 12. Parallel Streams
+│   ├── parallel()
+│   ├── parallelStream()
+│   ├── sequential()
+│   ├── isParallel()
+│   ├── ForkJoinPool
+│   ├── Ordering
+│   ├── Thread Safety
+│   └── Performance
+│
+├── 13. Advanced Stream Concepts
+│   ├── Stateful Operations
+│   ├── Stateless Operations
+│   ├── Short-Circuit Operations
+│   ├── Ordered Streams
+│   ├── Unordered Streams
+│   ├── Infinite Streams
+│   ├── Stream Reuse
+│   ├── Side Effects
+│   ├── Spliterator
+│   └── Custom Collectors
+│
+└── 14. Interview Problem Patterns
+    ├── Second Highest
+    ├── Duplicate Elements
+    ├── Frequency
+    ├── Grouping
+    ├── Highest Salary
+    ├── Department-wise Highest Salary
+    ├── First Non-Repeated Character
+    ├── First Repeated Character
+    ├── Anagram
+    ├── Palindrome
+    ├── Top N
+    ├── Sorting
+    ├── Partitioning
+    ├── Flattening
+    ├── Joining
+    ├── Statistics
+    └── Complex Multi-step Pipelines
